@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+
+}
+
+ul{
+    display: flex;
+}
+
+.li-navbar{
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.navbar-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-btn{
+    background-color: white;
+    color: black;
+}
+.judul{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    padding-top: 70px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+.arrowdown{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    padding-top: 2%;
+}
+.article{
+    display: flex;
+
+}
+.text-article{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+.mboh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.atasan-article{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.article2{
+    display: flex;
+}
+.btn-article1{
+    text-decoration: underline hsl(51, 100%, 49%);
+    list-style-type: none;
+}
+.btn-article2{
+    text-decoration: underline hsl(7, 99%, 70%);
+    list-style-type: none;
+}
+
+.mbrh{
+    padding-top:0px ;
+}
+.text-article2{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.article3{
+    display: flex;
+}
+
+.egg{
+    display: flex;
+    width: 100%;
+    padding-right: 0px;
+}
+.cangkir{
+    display: flex;
+    width: 100%;
+}
+.leci{
+    display: flex;
+    width: 100%;
+}
+.buah{
+    display: flex;
+    width: 100%;
+}
+.gambar-article3{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    height: 90vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.gambar-article4{
+    background-image: url(./images/desktop/image-photography.jpg);
+    height: 90vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.text-article3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50%;
+}
+.text-article4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50%;
+}
+.atasan-article-jejer-graphic{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: hsl(167, 40%, 24%);
+}
+.atasan-article-jejer-photo{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: hsl(198, 62%, 26%);
+}
+.p-jejer{
+    font-size: medium;
+    padding-top: 30px;
+}
+.p-jejer-graphic{
+    font-size: medium;
+    padding-top: 30px;
+    color:hsl(167, 40%, 24%) ;
+}
+.p-jejer-photo{
+    font-size: medium;
+    padding-top: 30px;
+    color: hsl(198, 62%, 26%);
+}
+
+.judul-testi{
+    color: hsl(210, 4%, 67%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    padding-top: 4%;
+}
+
+.gambar-jejer{
+    display: flex;
+    margin-top: 30px;
+}
+.gambar-milk{
+    width: 25%;
+    height: 50%;
+    display: flex;
+}
+.gambar-jeruk{
+    width: 25%;
+    height: 50%;
+    display: flex;
+}
+.gambar-cone{
+    width: 25%;
+    height: 50%;
+    display: flex;
+}
+.gambar-gula{
+    width: 25%;
+    height: 50%;
+    display: flex;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+}
+td{
+    justify-content: center;
+}
+.foto-testi{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.baris2{
+    margin-top: 50px;
+}
+.baris3{
+    margin-top: 50px;
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    padding-top: 4%;
+}
+.baris4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 4%;
+}
+
+.footer{
+    background-color: hsl(168, 34%, 41%);
+}
+.logo-footer{
+    margin: 10px,auto;
+    color: hsl(167, 40%, 24%);
+}
+.tb-footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+}
+.btn-footer{
+    list-style-type: none;
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+}
+.icon-sosial {
+    padding-bottom: 50px;
+}
